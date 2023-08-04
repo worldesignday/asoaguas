@@ -1,0 +1,25 @@
+/* IMPORTS */
+// 1. Configuration and helpers
+@import
+  'base/variables',
+  'base/mixins',
+  'base/helpers',
+  'base/base';
+
+
+// 3. fonts
+@import
+  'base/typography';
+
+
+// 4. components
+@import
+	'components/custom-utilities',
+	'components/header',
+	'components/footer';
+	
+// 5. layouts
+
+// 6. pages
+@import
+	'pages/homepage';

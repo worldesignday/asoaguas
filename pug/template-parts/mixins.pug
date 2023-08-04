@@ -1,0 +1,11 @@
+//- simple-card
+mixin simple-card(urlimg, title, resumen, urlbtn)
+	.col-sm-6.col-lg-4.mb-4.d-flex.align-items-stretch
+		.card
+			img(src=urlimg class="card-img-top")
+			.card-body
+				.card-title.fs-2.lh-1
+					= title
+				.card-text.text-secondary
+					= resumen
+				a(class="btn btn-primary mt-3 stretched-link" href=urlbtn target="_blank") Ver video
